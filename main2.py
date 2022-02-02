@@ -8,8 +8,6 @@ def move(folderName, files):
     for file in files:
         os.replace(file, f"{folderName}/{file}")
 
-
-
 files = os.listdir()
 files.remove("main.py")
 files.remove("main2.py")
